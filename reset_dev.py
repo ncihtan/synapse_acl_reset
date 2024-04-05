@@ -70,6 +70,17 @@ benefactors_df = query_results.asDataFrame()
 
 print(benefactors_df)
 
+response = input("Press 'y' to continue or 'n' to exit: ").lower()
+if response == 'y':
+    pass
+elif response == 'n':
+    print("Exiting script.")
+    exit()
+else:
+    print("Invalid input. Exiting script.")
+    exit()
+
+
 for b in benefactors_df['benefactorId']:
     delete_acl(b)
 
