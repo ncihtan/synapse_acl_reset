@@ -6,6 +6,7 @@ syn = synapseclient.Synapse()
 syn.login()
 
 # Project and FileView IDs
+## test
 project_id = 'syn55259805'
 fileview_id = 'syn55259830'
 
@@ -60,7 +61,7 @@ custom_acl['resourceAccess'] = [
     {'principalId': principals['htan_dcc_admins'], 'accessType': permission_levels['admin']},
     {'principalId': principals['act'],             'accessType': permission_levels['admin']},
     {'principalId': principals['htan_dcc'],        'accessType': permission_levels['edit']},
-    {'principalId': principals['htan_ohsu'],       'accessType': permission_levels['view']},
+    {'principalId': principals['htan_ohsu'],       'accessType': permission_levels['edit']},
 ]
 
 # Apply the new ACL to the project

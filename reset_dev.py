@@ -1,12 +1,18 @@
 import synapseclient
 import json
+import tqdm
+
+from datetime import datetime
+print(datetime.now())
 
 syn = synapseclient.Synapse()
 syn.login()
 
 # Your project ID and the FileView ID
+## test
 project_id = 'syn55259805'
 fileview_id = 'syn55259830'
+
 
 
 def verify_acl_inheritance(syn, project_id, fileview_id):
@@ -27,7 +33,7 @@ def verify_acl_inheritance(syn, project_id, fileview_id):
     - Makes a call to the Synapse REST API to perform a query on a FileView.
     - Prints to the console the outcome of the verification.
     """
-    query_str = f"SELECT id FROM {fileview_id} WHERE benefactorId<>'{project_id}' AND projectId='{project_id}'"
+    query_str = f"SELECT DISTINCT(benefactorId) as id FROM {fileview_id} WHERE benefactorId<>'{project_id}' AND projectId='{project_id}'"
     query_results = syn.tableQuery(query_str)
     entities_df = query_results.asDataFrame()
 
@@ -85,12 +91,12 @@ else:
 
 acls = []
 
-for b in benefactors_df['id']:
+for b in tqdm.tqdm(benefactors_df['id']):
     acl = get_acl(b)
     acls.append(acl)
     delete_acl(b)
 
-with open('deleted_acls.json', 'w', encoding='utf-8') as f:
+with open(f'deleted_acls_{project_id}.json', 'w', encoding='utf-8') as f:
     json.dump(acls, f, indent=2)
 
 # Confirm that all ACLs have been deleted
