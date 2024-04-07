@@ -1,4 +1,6 @@
-# 🔥 Scripts to reset ACLs within HTAN's Synapse projects
+# 🔥 HTAN x Synapse ACL burn-down
+
+#### *Scripts to reset ACLs within HTAN's Synapse projects*
 
 `reset_dev.py`: 
 This script automates the verification and adjustment of ACL inheritance for entities within a Synapse project, ensuring all adhere to project-level permissions.
