@@ -1,58 +1,13 @@
+from xml.sax import xmlreader
 from google.cloud import bigquery
 from tqdm import tqdm
+import yaml
 
 import synapseclient
 import json
 
-# Initialize the Synapse client and log in
-syn = synapseclient.Synapse()
-syn.login()
 
-# Construct a BigQuery client object.
-client = bigquery.Client(project="htan-dcc")
-
-query = """
-    SELECT entityId FROM `htan-dcc.released.entities_v5_1`
-    WHERE Component LIKE '%Level3' OR Component LIKE '%Level4'
-    LIMIT 20
-"""
-
-query_job = client.query(query)  # Make an API request.
-
-# Fetch the results.
-results = query_job.result()
-
-entity_ids = []
-
-for row in results:
-    entity_ids.append(row["entityId"])
-
-# Define specific resource access for the ACL
-
-# Define users or teams by their principal IDs
-principals = {
-    "htan_dcc_admins": 3497313,
-    "htan_dcc": 3391844,
-    "htan_ohsu": 3410328,
-    "act": 464532,
-    "adamjtaylor": 3421936,
-    "lambda": 3413795,
-    "all_registered_synapse_users": 273948,
-    "anyone_on_the_web": 273949,
-}
-
-# Define permission levels
-# fmt: off
-permission_levels = {
-    "view":     ["READ"],
-    "download": ["READ", "DOWNLOAD"],
-    "edit":     ["READ", "DOWNLOAD", "CREATE", "UPDATE"],
-    "delete":   ["READ", "DOWNLOAD", "CREATE", "UPDATE", "DELETE"],
-    "admin":    ["READ", "DOWNLOAD", "CREATE", "UPDATE", "DELETE", "MODERATE", "CHANGE_PERMISSIONS", "CHANGE_SETTINGS"],
-}
-# fmt: on
-
-
+# Helper functions to get and put ACLs
 def get_acl(entity_id):
     """
     Fetch the ACL for a given entity by its ID.
@@ -79,24 +34,72 @@ def put_acl(entity_id, acl):
     syn.restPUT(uri, json.dumps(acl))
 
 
-public_view_resource_access = {
+# Initialize the Synapse client and log in
+syn = synapseclient.Synapse()
+syn.login()
+
+# Construct a BigQuery client object.
+client = bigquery.Client(project="htan-dcc")
+
+query = """
+        WITH released AS (
+        SELECT entityId, Component, channel_metadata_synapseId
+        FROM `htan-dcc.released.entities`
+        )
+        SELECT entityId AS syn_public FROM released
+        WHERE REGEXP_CONTAINS(Component,
+        r'%Level[34]|Auxiliary|Accessory|ExSeqMinimal|Slide-seq|MassSpectrometry|RPPA')
+        UNION ALL
+        SELECT DISTINCT channel_metadata_synapseId AS syn_public FROM released
+        WHERE channel_metadata_synapseId IS NOT NULL
+        """
+
+query_job = client.query(query)  # Make an API request.
+
+# Fetch the results.
+results = query_job.result()
+
+entity_ids = []
+
+for row in results:
+    entity_ids.append(row["entityId"])
+
+# Load configuration from the external YAML file
+config_file_path = "config.yaml"
+with open(config_file_path, "r") as file:
+    config = yaml.safe_load(file)
+
+# Assign values from the YAML config
+principals = config["principals"]
+permission_levels = config["permission_levels"]
+
+# Append specific ids to make public from the config file
+public_dirs = config["public_dirs"]
+entity_ids.append(public_dirs)
+
+# Define public view and registered user download permission RAs
+public_view_access = {
     "principalId": principals["anyone_on_the_web"],
     "accessType": permission_levels["view"],
 }
-registered_user_download_resource_access = {
+registered_user_download_access = {
     "principalId": principals["all_registered_synapse_users"],
     "accessType": permission_levels["download"],
 }
 
-for e in tqdm(entity_ids):
+for e in (pbar := tqdm(entity_ids)):
+
+    # Update the progress bar with current entity
+    pbar.set_description(f"{e}")
+
     # Fetch the current ACL for the entity
     current_acl = get_acl(e)
-
-    # Make a custom acl
     custom_acl = current_acl
 
-    # Add public view and registered user download permissions to the ACL
-    custom_acl.append(public_view_resource_access)
-    custom_acl.append(registered_user_download_resource_access)
+    # Add public view and registered user download permissions
+    custom_acl["resourceAccess"].append(public_view_access)
+    custom_acl["resourceAccess"].append(registered_user_download_access)
 
+    # Set the ACL on the entity
+    print(f"Setting custom acl for {e}")
     put_acl(e, custom_acl)

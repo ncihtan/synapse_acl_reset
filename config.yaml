@@ -1,0 +1,73 @@
+projects:
+  ohsu: syn22093319
+  bu: syn22124336
+  vanderbilt: syn21050481
+  dfci: syn23511954
+  wustl: syn22255320
+  duke: syn23511961
+  stanford: syn23511964
+  chop: syn22776798
+  msk: syn23448901
+  hms: syn22123910
+  pcapp: syn23511984
+  htapp: syn20834712
+  srrs: syn25555889
+  tnp_sardana: syn24984270
+  tnp_tma: syn22041595
+  tnp_casi: syn52861417
+principals:
+  dcc_admin: 3497313
+  dcc: 3391844
+  nci: 3380783
+  ohsu: 3410328
+  bu: 3410872
+  vanderbilt: 3398389
+  dfci: 3416990
+  wustl: 3412826
+  duke: 3416991
+  stanford: 3416992
+  chop: 3415638
+  msk: 3416930
+  hms: 3410871
+  pcapp: 3416996
+  htapp: 3397553
+  srrs: 3425066
+  tnp_sardana: 3409403
+  tnp_tma: 3419724
+  tnp_casi: 3485733
+  act: 464532
+  adamjtaylor: 3421936
+  lambda: 3413795
+  all_registered_synapse_users: 273948
+  anyone_on_the_web: 273949
+permission_levels:
+  view:
+  - READ
+  download:
+  - READ
+  - DOWNLOAD
+  edit:
+  - READ
+  - DOWNLOAD
+  - CREATE
+  - UPDATE
+  delete:
+  - READ
+  - DOWNLOAD
+  - CREATE
+  - UPDATE
+  - DELETE
+  admin:
+  - READ
+  - DOWNLOAD
+  - CREATE
+  - UPDATE
+  - DELETE
+  - MODERATE
+  - CHANGE_PERMISSIONS
+  - CHANGE_SETTINGS
+fileview_id: "syn20446927"
+public_dirs:
+  - syn31566909 # OHSU EM Level 1
+  - syn31773950 # OHSU EM level 2
+  
