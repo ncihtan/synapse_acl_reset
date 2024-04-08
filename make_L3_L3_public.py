@@ -54,15 +54,9 @@ query = """
         WHERE channel_metadata_synapseId IS NOT NULL
         """
 
-query_job = client.query(query)  # Make an API request.
+results = client.query(query).result()
 
-# Fetch the results.
-results = query_job.result()
-
-entity_ids = []
-
-for row in results:
-    entity_ids.append(row["entityId"])
+entity_ids = [row["entityId"] for row in results]
 
 # Load configuration from the external YAML file
 config_file_path = "config.yaml"
