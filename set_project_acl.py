@@ -13,7 +13,8 @@ with open(config_file_path, "r") as file:
 
 # Assign values from the YAML config
 # fileview_id = config["fileview_id"]
-principals = config["principals"]
+teams = config["teams"]
+users = config["users"]
 permission_levels = config["permission_levels"]
 
 # Project and FileView IDs
@@ -56,13 +57,13 @@ custom_acl = current_acl
 
 # fmt: off
 custom_acl["resourceAccess"] = [
-    {"principalId": principals["dcc_admin"], "accessType": permission_levels["admin"]},
-    {"principalId": principals["act"],       "accessType": permission_levels["admin"]},
-    {"principalId": principals["lambda"],    "accessType": permission_levels["delete"]},
-    {"principalId": principals["dcc"],       "accessType": permission_levels["edit"]},
+    {"principalId": teams["dcc_admin"], "accessType": permission_levels["admin"]},
+    {"principalId": teams["act"],       "accessType": permission_levels["admin"]},
+    {"principalId": users["lambda"],    "accessType": permission_levels["delete"]},
+    {"principalId": teams["dcc"],       "accessType": permission_levels["edit"]},
     # TODO: #1 Dynamically set contributor acl based on project
-    {"principalId": principals["ohsu"],      "accessType": permission_levels["edit"]},
-    {"principalId": principals["nci"],       "accessType": permission_levels["view"]},
+    {"principalId": teams["ohsu"],      "accessType": permission_levels["edit"]},
+    {"principalId": teams["nci"],       "accessType": permission_levels["view"]},
 ]
 # fmt: on
 

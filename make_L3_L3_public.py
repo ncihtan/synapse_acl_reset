@@ -67,7 +67,7 @@ with open(config_file_path, "r") as file:
     config = yaml.safe_load(file)
 
 # Assign values from the YAML config
-principals = config["principals"]
+users = config["users"]
 permission_levels = config["permission_levels"]
 
 # Append specific ids to make public from the config file
@@ -76,11 +76,11 @@ entity_ids.append(public_dirs)
 
 # Define public view and registered user download permission RAs
 public_view_access = {
-    "principalId": principals["anyone_on_the_web"],
+    "principalId": users["anyone_on_the_web"],
     "accessType": permission_levels["view"],
 }
 registered_user_download_access = {
-    "principalId": principals["all_registered_synapse_users"],
+    "principalId": users["all_registered_synapse_users"],
     "accessType": permission_levels["download"],
 }
 

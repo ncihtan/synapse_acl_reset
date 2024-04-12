@@ -15,7 +15,7 @@ projects:
   tnp_sardana: syn24984270
   tnp_tma: syn22041595
   tnp_casi: syn52861417
-principals:
+teams:
   dcc_admin: 3497313
   dcc: 3391844
   nci: 3380783
@@ -36,6 +36,7 @@ principals:
   tnp_tma: 3419724
   tnp_casi: 3485733
   act: 464532
+users:
   adamjtaylor: 3421936
   lambda: 3413795
   all_registered_synapse_users: 273948
@@ -66,7 +67,7 @@ permission_levels:
   - MODERATE
   - CHANGE_PERMISSIONS
   - CHANGE_SETTINGS
-fileview_id: "syn20446927"
+fileview_id: syn20446927
 public_dirs:
   - syn31566909 # OHSU EM Level 1
   - syn31773950 # OHSU EM level 2
