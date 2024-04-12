@@ -63,7 +63,6 @@ custom_acl["resourceAccess"] = [
     {"principalId": teams["dcc"],       "accessType": permission_levels["edit"]},
     # TODO: #1 Dynamically set contributor acl based on project
     {"principalId": teams["ohsu"],      "accessType": permission_levels["edit"]},
-    {"principalId": teams["nci"],       "accessType": permission_levels["view"]},
 ]
 # fmt: on
 
