@@ -6,6 +6,9 @@ import yaml
 import synapseclient
 import json
 
+syn = synapseclient.Synapse()
+syn.login()
+
 
 # Helper functions to get and put ACLs
 def get_acl(entity_id):
