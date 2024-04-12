@@ -1,5 +1,4 @@
-# 🔥 HTAN x Synapse ACL burn-down
-
+# 🔥 HTAN x Synapse ACL reset
 #### *Scripts to reset ACLs within HTAN's Synapse projects*
 
 `reset_non_project_acls.py`: 
