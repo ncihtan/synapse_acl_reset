@@ -51,7 +51,7 @@ query = """
         )
         SELECT entityId AS syn_public FROM released
         WHERE REGEXP_CONTAINS(Component,
-        r'%Level[34]|Auxiliary|Accessory|ExSeqMinimal|Slide-seq|MassSpectrometry|RPPA')
+        r'%Level[34]|Auxiliary|Accessory|Other|MassSpectrometry|RPPA')
         UNION ALL
         SELECT DISTINCT channel_metadata_synapseId AS syn_public FROM released
         WHERE channel_metadata_synapseId IS NOT NULL
