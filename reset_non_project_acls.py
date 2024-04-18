@@ -1,14 +1,33 @@
 import synapseclient
 import json
 import tqdm
+import argparse
+import yaml
+
+parser = argparse.ArgumentParser()
+parser.add_argument(
+    "htan_center", help="Name of key in config under projects and teams"
+)
+args = parser.parse_args()
 
 syn = synapseclient.Synapse()
 syn.login()
 
-# Your project ID and the FileView ID
-# test
-project_id = "syn55259805"
-fileview_id = "syn55259830"
+# Load configuration from the external YAML file
+print("Loading configuration from YAML file")
+config_file_path = "config.yaml"
+with open(config_file_path, "r") as file:
+    config = yaml.safe_load(file)
+
+# Assign values from the YAML config
+
+if args.htan_center == "test":
+    fileview_id = "syn55259830"
+else:
+    fileview_id = config["fileview_id"]
+
+# Project and team IDs for the HTAN Center
+center_project_id = config["projects"][args.htan_center]
 
 
 def verify_acl_inheritance(syn, project_id, fileview_id):
@@ -42,7 +61,7 @@ def verify_acl_inheritance(syn, project_id, fileview_id):
     """
 
     print(
-        f"Querying {fileview_id} for benefactorIds not equal to projectId {project_id}"
+        f"Querying {fileview_id} for benefactorIds not equal to projectId {project_id} ({args.htan_center})..."
     )
     query_results = syn.tableQuery(query_str)
     entities_df = query_results.asDataFrame()
@@ -50,7 +69,7 @@ def verify_acl_inheritance(syn, project_id, fileview_id):
     if not entities_df.empty:
         print(
             f"""
-ACTION REQUIRED: There are {len(entities_df)} entities that do not inherit permissions from the project ({project_id}).
+ACTION REQUIRED: There are {len(entities_df)} entities that do not inherit permissions from the project ({project_id})...
         """
         )
         return entities_df
@@ -143,12 +162,18 @@ ACLs for the following entities will be be removed and now inherited from {proje
         delete_acl(b)
 
     # Save the list of deleted ACLs to a json file
+    print(f"Saving deleted ACLs to deleted_acls_{project_id}.json")
     with open(f"deleted_acls_{project_id}.json", "w", encoding="utf-8") as f:
         json.dump(acls, f, indent=2)
 
 
-# Reset the ACLs
-reset_acls(syn, project_id, fileview_id)
+def main():
+    # Reset the ACLs
+    reset_acls(syn, center_project_id, fileview_id)
 
-# Confirm that all ACLs have been deleted
-verify_acl_inheritance(syn, project_id, fileview_id)
+    # Confirm that all ACLs have been deleted
+    verify_acl_inheritance(syn, center_project_id, fileview_id)
+
+
+if __name__ == "__main__":
+    main()
