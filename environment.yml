@@ -1,0 +1,10 @@
+name: synapse-acl-reset
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pyyaml
+  - pip
+  - pip:
+    - synapseclient
+    - google-cloud-bigquery
