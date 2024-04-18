@@ -15,6 +15,7 @@ projects:
   tnp_sardana: syn24984270
   tnp_tma: syn22041595
   tnp_casi: syn52861417
+  test: syn55259805
 teams:
   dcc_admin: 3497313
   dcc: 3391844
@@ -36,6 +37,7 @@ teams:
   tnp_tma: 3419724
   tnp_casi: 3485733
   act: 464532
+  test: 3449399
 users:
   adamjtaylor: 3421936
   lambda: 3413795
