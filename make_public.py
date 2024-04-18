@@ -1,4 +1,3 @@
-from xml.sax import xmlreader
 from google.cloud import bigquery
 from tqdm import tqdm
 import yaml
