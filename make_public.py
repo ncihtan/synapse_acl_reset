@@ -65,6 +65,7 @@ registered_user_download_access = {
 }
 
 # Define the query to fetch releasable entity IDs
+# EM level 1 and 2 access are set at the folder level through the config yaml file
 query = """
         WITH released AS (
         SELECT entityId, Component, channel_metadata_synapseId
@@ -77,6 +78,7 @@ query = """
         SELECT DISTINCT channel_metadata_synapseId AS syn_public FROM released
         WHERE channel_metadata_synapseId IS NOT NULL
         """
+
 
 print("Listing releasable entities...")
 

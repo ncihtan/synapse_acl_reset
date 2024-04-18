@@ -1,7 +1,6 @@
 import synapseclient
 import json
 import yaml
-import sys
 import argparse
 import logging
 
@@ -77,7 +76,7 @@ def main():
         {"principalId": teams["act"],       "accessType": permission_levels["admin"]},
         {"principalId": users["lambda"],    "accessType": permission_levels["delete"]},
         {"principalId": teams["dcc"],       "accessType": permission_levels["edit"]},
-        {"principalId": center_team_id,      "accessType": permission_levels["edit"]},
+        {"principalId": center_team_id,     "accessType": permission_levels["edit"]},
     ]
     # fmt: on
     # Apply the new ACL to the project
