@@ -6,8 +6,13 @@ import yaml
 import synapseclient
 import json
 
+
+# Initialize the Synapse client and log in
 syn = synapseclient.Synapse()
 syn.login()
+
+# Construct a BigQuery client object.
+client = bigquery.Client(project="htan-dcc")
 
 
 # Helper functions to get and put ACLs
@@ -37,13 +42,30 @@ def put_acl(entity_id, acl):
     syn.restPUT(uri, json.dumps(acl))
 
 
-# Initialize the Synapse client and log in
-syn = synapseclient.Synapse()
-syn.login()
+# Load configuration from the external YAML file
+config_file_path = "config.yaml"
+with open(config_file_path, "r") as file:
+    config = yaml.safe_load(file)
 
-# Construct a BigQuery client object.
-client = bigquery.Client(project="htan-dcc")
+# Assign values from the YAML config
+users = config["users"]
+permission_levels = config["permission_levels"]
 
+# Append specific ids to make public from the config file
+public_dirs = config["public_dirs"]
+
+
+# Define public view and registered user download permission RAs
+public_view_access = {
+    "principalId": users["anyone_on_the_web"],
+    "accessType": permission_levels["view"],
+}
+registered_user_download_access = {
+    "principalId": users["all_registered_synapse_users"],
+    "accessType": permission_levels["download"],
+}
+
+# Define the query to fetch releasable entity IDs
 query = """
         WITH released AS (
         SELECT entityId, Component, channel_metadata_synapseId
@@ -57,32 +79,29 @@ query = """
         WHERE channel_metadata_synapseId IS NOT NULL
         """
 
+print("Listing releasable entities...")
+
+# Execute the query and fetch the results
 results = client.query(query).result()
 
-entity_ids = [row["entityId"] for row in results]
+print(results)
 
-# Load configuration from the external YAML file
-config_file_path = "config.yaml"
-with open(config_file_path, "r") as file:
-    config = yaml.safe_load(file)
+# Extract the entity IDs from the results
 
-# Assign values from the YAML config
-users = config["users"]
-permission_levels = config["permission_levels"]
-
-# Append specific ids to make public from the config file
-public_dirs = config["public_dirs"]
+entity_ids = [row["syn_public"] for row in results]
 entity_ids.append(public_dirs)
 
-# Define public view and registered user download permission RAs
-public_view_access = {
-    "principalId": users["anyone_on_the_web"],
-    "accessType": permission_levels["view"],
-}
-registered_user_download_access = {
-    "principalId": users["all_registered_synapse_users"],
-    "accessType": permission_levels["download"],
-}
+# Subset for testing
+entity_ids = entity_ids[:5]
+
+print(f"Ready to make {len(entity_ids)} entities public...")
+
+proceed = input("Do you want to proceed? (y/n): ")
+if proceed.lower() == "y":
+    print(f"Making {len(entity_ids)} entities public...")
+else:
+    print("Exiting...")
+    exit()
 
 for e in (pbar := tqdm(entity_ids)):
 
@@ -98,5 +117,6 @@ for e in (pbar := tqdm(entity_ids)):
     custom_acl["resourceAccess"].append(registered_user_download_access)
 
     # Set the ACL on the entity
-    print(f"Setting custom acl for {e}")
     put_acl(e, custom_acl)
+
+print("Done!")
