@@ -124,9 +124,13 @@ def get_acl(entity_id):
     Parameters:
     - entity_id (str): The Synapse ID of the entity whose ACL is to be fetched.
     """
-    uri = f"/entity/{entity_id}/acl"
-    acl = syn.restGET(uri)
-    return acl
+    try:
+        uri = f"/entity/{entity_id}/acl"
+        acl = syn.restGET(uri)
+        return acl
+    except synapseclient.SynapseHTTPError as e:
+        print(f"Error fetching ACL for entity: {entity_id}")
+        raise
 
 
 def reset_acls(syn, project_id, fileview_id):
