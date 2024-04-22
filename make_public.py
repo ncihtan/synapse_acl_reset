@@ -14,31 +14,21 @@ syn.login()
 client = bigquery.Client(project="htan-dcc")
 
 
-# Helper functions to get and put ACLs
-def get_acl(entity_id):
-    """
-    Fetch the ACL for a given entity by its ID.
-
-    Parameters:
-    - entity_id (str): Synapse ID of the entity.
-
-    Returns:
-    - dict: The ACL of the entity.
-    """
-    uri = f"/entity/{entity_id}/acl"
-    return syn.restGET(uri)
-
-
-def put_acl(entity_id, acl):
-    """
-    Update the ACL for a given entity by its ID with a new ACL.
-
-    Parameters:
-    - entity_id (str): Synapse ID of the entity.
-    - acl (dict): New ACL to apply to the entity.
-    """
-    uri = f"/entity/{entity_id}/acl"
-    syn.restPUT(uri, json.dumps(acl))
+def make_public(synid):
+    registered = syn.getPermissions(synid, "273948") == ["DOWNLOAD", "READ"]
+    if registered:
+        pass
+    else:
+        syn.setPermissions(
+            synid, "273948", ["DOWNLOAD", "READ"], warn_if_inherits=False
+        )
+    public = syn.getPermissions(synid, "PUBLIC") == ["READ"]
+    if public:
+        pass
+    else:
+        syn.setPermissions(
+            synid, principalId="PUBLIC", accessType=["READ"], warn_if_inherits=False
+        )
 
 
 # Load configuration from the external YAML file
@@ -107,15 +97,7 @@ for e in (pbar := tqdm(entity_ids)):
     # Update the progress bar with current entity
     pbar.set_description(f"{e}")
 
-    # Fetch the current ACL for the entity
-    current_acl = get_acl(e)
-    custom_acl = current_acl
+    make_public(e)
 
-    # Add public view and registered user download permissions
-    custom_acl["resourceAccess"].append(public_view_access)
-    custom_acl["resourceAccess"].append(registered_user_download_access)
-
-    # Set the ACL on the entity
-    put_acl(e, custom_acl)
 
 print("Done!")
