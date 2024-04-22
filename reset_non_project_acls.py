@@ -109,7 +109,7 @@ def delete_acl(entity_id):
     uri = f"/entity/{entity_id}/acl"
     try:
         syn.restDELETE(uri)
-        print(f"Deleted ACL for entity: {entity_id}")
+        # print(f"Deleted ACL for entity: {entity_id}")
     except synapseclient.SynapseHTTPError as e:
         if e.response.status_code == 404:
             print(f"No custom ACL to delete for entity: {entity_id}")
