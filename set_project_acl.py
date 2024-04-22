@@ -18,16 +18,18 @@ syn.login()
 
 def get_acl(entity_id):
     """
-    Fetch the ACL for a given entity by its ID.
+    Uses the Synapse REST API to get the ACL of a specified entity
 
     Parameters:
-    - entity_id (str): Synapse ID of the entity.
-
-    Returns:
-    - dict: The ACL of the entity.
+    - entity_id (str): The Synapse ID of the entity whose ACL is to be fetched.
     """
-    uri = f"/entity/{entity_id}/acl"
-    return syn.restGET(uri)
+    try:
+        uri = f"/entity/{entity_id}/acl"
+        acl = syn.restGET(uri)
+        return acl
+    except synapseclient.SynapseHTTPError as e:
+        print(f"Error fetching ACL for entity: {entity_id}")
+        raise
 
 
 def put_acl(entity_id, acl):
@@ -38,8 +40,11 @@ def put_acl(entity_id, acl):
     - entity_id (str): Synapse ID of the entity.
     - acl (dict): New ACL to apply to the entity.
     """
-    uri = f"/entity/{entity_id}/acl"
-    syn.restPUT(uri, json.dumps(acl))
+    try:
+        uri = f"/entity/{entity_id}/acl"
+        syn.restPUT(uri, json.dumps(acl))
+    except synapseclient.SynapseHTTPError as e:
+        print(f"Failed to update ACL for entity {entity_id}: {str(e)}")
 
 
 def main():
