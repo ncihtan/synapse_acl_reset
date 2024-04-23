@@ -4,6 +4,9 @@ from tqdm import tqdm
 import yaml
 
 import synapseclient
+from synapseclient.models import File
+import asyncio
+
 
 # Initialize the Synapse client and log in
 syn = synapseclient.Synapse()
@@ -78,7 +81,7 @@ entity_ids = [row["syn_public"] for row in results]
 # entity_ids.append(public_dirs)
 
 # Subset for testing
-# entity_ids = entity_ids[:50]
+# entity_ids = entity_ids[:100]
 
 print(f"Ready to make {len(entity_ids)} entities public...")
 
@@ -89,18 +92,37 @@ else:
     print("Exiting...")
     exit()
 
-for entity_id in (pbar := tqdm(entity_ids)):
-    try:
-        pbar.set_description(f"{entity_id}")
-        syn.setPermissions(entity_id, "273949", ["READ"], warn_if_inherits=False)
-        syn.setPermissions(
-            entity_id, "273948", ["DOWNLOAD", "READ"], warn_if_inherits=False
-        )
-        with open("entity_ids.txt", "a") as file:
-            file.write(entity_id + "\n")
-    except Exception as e:
-        print(f"Error setting permissions for entity {entity_id}: {e}")
-        raise
+from synapseclient.models import File
+from tqdm.asyncio import tqdm_asyncio
 
+semaphore = asyncio.Semaphore(12)
+
+
+async def set_permissions(entity_id):
+    async with semaphore:
+        await File(id=entity_id).set_permissions_async(
+            principal_id=273949, access_type=["READ"], warn_if_inherits=False
+        )
+        await File(id=entity_id).set_permissions_async(
+            principal_id=273948,
+            access_type=["READ", "DOWNLOAD"],
+            warn_if_inherits=False,
+        )
+
+
+async def main(entity_ids):
+
+    tasks = []
+    print("Building tasks...")
+    for entity_id in (pbar := tqdm(entity_ids)):
+        tasks.append(set_permissions(entity_id))
+
+    print("")
+    print("Executing tasks...")
+    for f in tqdm_asyncio.as_completed(tasks):
+        await f  # Await each future as it completes
+
+
+asyncio.run(main(entity_ids))
 
 print("Done!")
