@@ -1,0 +1,3027 @@
+[
+  {
+    "id": "syn22432744",
+    "creationDate": "2021-05-04T16:11:31.878Z",
+    "etag": "a47eb03e-d265-4877-9e25-cd97c5cc3018",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "READ",
+          "MODERATE",
+          "UPDATE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DELETE",
+          "CHANGE_SETTINGS"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "READ",
+          "UPDATE",
+          "DOWNLOAD",
+          "CREATE"
+        ]
+      },
+      {
+        "principalId": 3442054,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "READ",
+          "MODERATE",
+          "UPDATE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DELETE",
+          "CHANGE_SETTINGS"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn22677299",
+    "creationDate": "2020-10-06T16:13:15.687Z",
+    "etag": "97206ec1-799c-4bda-8b1b-fefaffa115fc",
+    "resourceAccess": [
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "READ",
+          "CREATE",
+          "MODERATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "principalId": 3442054,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "READ",
+          "CREATE",
+          "MODERATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "READ",
+          "CREATE",
+          "MODERATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn23632145",
+    "creationDate": "2021-05-04T16:08:33.513Z",
+    "etag": "147b1387-3794-465e-b774-9336b520b547",
+    "resourceAccess": [
+      {
+        "principalId": 273948,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3438869,
+        "accessType": [
+          "CREATE",
+          "READ",
+          "DOWNLOAD",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "READ",
+          "DOWNLOAD",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 3442054,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn23662468",
+    "creationDate": "2021-05-04T16:11:59.707Z",
+    "etag": "63ef6ad0-f76a-42ba-bd68-b8cfff977a86",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "DELETE",
+          "CHANGE_SETTINGS",
+          "MODERATE",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DOWNLOAD",
+          "READ",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3442054,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "DELETE",
+          "CHANGE_SETTINGS",
+          "MODERATE",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DOWNLOAD",
+          "READ",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "DOWNLOAD",
+          "READ",
+          "UPDATE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn23662469",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "88f0c8bb-135f-4ca4-8df8-e57ee8f4fb28",
+    "resourceAccess": [
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "DOWNLOAD",
+          "READ",
+          "CREATE",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "READ",
+          "CREATE",
+          "MODERATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "READ",
+          "CREATE",
+          "MODERATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24610388",
+    "creationDate": "2021-02-08T20:26:50.420Z",
+    "etag": "dd91ee81-3393-47bd-8fae-0876aea83cec",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "DELETE",
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "DELETE",
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 3442054,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24615248",
+    "creationDate": "2021-05-04T16:09:36.586Z",
+    "etag": "0c5d7b69-d51c-461f-92fb-75e1633a9d02",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CREATE",
+          "MODERATE",
+          "DELETE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "UPDATE",
+          "CHANGE_SETTINGS",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3442054,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "DOWNLOAD",
+          "UPDATE",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CREATE",
+          "MODERATE",
+          "DELETE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "UPDATE",
+          "CHANGE_SETTINGS",
+          "READ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24615249",
+    "creationDate": "2021-05-04T16:09:20.578Z",
+    "etag": "1aee18aa-b85b-47fa-ba08-758dc5a5780d",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "READ",
+          "DOWNLOAD",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 3442054,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24615250",
+    "creationDate": "2021-05-04T16:09:52.698Z",
+    "etag": "57e69a96-f2fa-47cc-901f-94755d2b4465",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "READ",
+          "MODERATE",
+          "UPDATE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DELETE",
+          "CHANGE_SETTINGS"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "READ",
+          "UPDATE",
+          "DOWNLOAD",
+          "CREATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "READ",
+          "MODERATE",
+          "UPDATE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DELETE",
+          "CHANGE_SETTINGS"
+        ]
+      },
+      {
+        "principalId": 3442054,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "READ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24615251",
+    "creationDate": "2021-05-04T16:10:12.064Z",
+    "etag": "b0be941f-ded5-4907-8496-2d09d7915d33",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "READ",
+          "MODERATE",
+          "UPDATE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DELETE",
+          "CHANGE_SETTINGS"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "READ",
+          "UPDATE",
+          "DOWNLOAD",
+          "CREATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "READ",
+          "MODERATE",
+          "UPDATE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DELETE",
+          "CHANGE_SETTINGS"
+        ]
+      },
+      {
+        "principalId": 3442054,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "READ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24615252",
+    "creationDate": "2021-05-04T16:10:36.910Z",
+    "etag": "a2a36e85-4d22-4031-97b3-3f19c54eaeb4",
+    "resourceAccess": [
+      {
+        "principalId": 273948,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "DOWNLOAD",
+          "READ",
+          "CREATE",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3442054,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "READ",
+          "CREATE",
+          "MODERATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "READ",
+          "CREATE",
+          "MODERATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24873786",
+    "creationDate": "2021-05-04T16:10:57.925Z",
+    "etag": "8c512bbf-39b0-4a79-868d-5bbf4f8e226d",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "READ",
+          "DOWNLOAD",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 3442054,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24873787",
+    "creationDate": "2021-05-04T16:11:14.020Z",
+    "etag": "2eada17b-de6d-49bc-bbec-1d568e0a299a",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CREATE",
+          "MODERATE",
+          "DELETE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "UPDATE",
+          "CHANGE_SETTINGS",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3442054,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "DOWNLOAD",
+          "UPDATE",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CREATE",
+          "MODERATE",
+          "DELETE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "UPDATE",
+          "CHANGE_SETTINGS",
+          "READ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875873",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "eabe585f-f3ec-4a89-aa92-3337aca6a206",
+    "resourceAccess": [
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "DOWNLOAD",
+          "READ",
+          "CREATE",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "READ",
+          "CREATE",
+          "MODERATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "READ",
+          "CREATE",
+          "MODERATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875874",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "8fa16725-bcf3-480a-be05-f23c22a486c0",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "READ",
+          "MODERATE",
+          "UPDATE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DELETE",
+          "CHANGE_SETTINGS"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "READ",
+          "UPDATE",
+          "DOWNLOAD",
+          "CREATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "READ",
+          "MODERATE",
+          "UPDATE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DELETE",
+          "CHANGE_SETTINGS"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875875",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "c3b966c8-df10-4209-9dc7-1f5afe1f6ba1",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CREATE",
+          "MODERATE",
+          "DELETE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "UPDATE",
+          "CHANGE_SETTINGS",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "DOWNLOAD",
+          "UPDATE",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CREATE",
+          "MODERATE",
+          "DELETE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "UPDATE",
+          "CHANGE_SETTINGS",
+          "READ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875876",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "d6963e9e-a4b7-446d-98ba-22a915cbbbb6",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "READ",
+          "DOWNLOAD",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875877",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "a3c547cc-f06e-4407-9145-71537e6e27ae",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CREATE",
+          "MODERATE",
+          "DELETE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "UPDATE",
+          "CHANGE_SETTINGS",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "DOWNLOAD",
+          "UPDATE",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CREATE",
+          "MODERATE",
+          "DELETE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "UPDATE",
+          "CHANGE_SETTINGS",
+          "READ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875878",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "bb1b4316-94ec-44bb-99d5-e5f3c20051d6",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "READ",
+          "DOWNLOAD",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875879",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "eb2c65b4-9baf-4ed6-9162-44f2dbba0c86",
+    "resourceAccess": [
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "DOWNLOAD",
+          "READ",
+          "CREATE",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "READ",
+          "CREATE",
+          "MODERATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "READ",
+          "CREATE",
+          "MODERATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875880",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "34886cb6-d626-44b6-95a5-9c66fad8bcd1",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "READ",
+          "DOWNLOAD",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875881",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "aa051efd-bf34-4c93-b472-0daa7e77b07b",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "DELETE",
+          "CHANGE_SETTINGS",
+          "MODERATE",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DOWNLOAD",
+          "READ",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "DELETE",
+          "CHANGE_SETTINGS",
+          "MODERATE",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DOWNLOAD",
+          "READ",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "DOWNLOAD",
+          "READ",
+          "UPDATE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875882",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "e6cb3681-16cc-4830-8c71-13bdd756769f",
+    "resourceAccess": [
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "DELETE",
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "DELETE",
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DOWNLOAD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875883",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "c5e4c919-2019-4cd4-8882-109ca13e0293",
+    "resourceAccess": [
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "DELETE",
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "DELETE",
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DOWNLOAD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875884",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "9f352a10-5882-4373-8a40-0e09f64519dc",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "READ",
+          "DOWNLOAD",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875885",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "0105f0b2-0184-4317-abd3-22171b4b8bb7",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "READ",
+          "MODERATE",
+          "UPDATE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DELETE",
+          "CHANGE_SETTINGS"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "READ",
+          "UPDATE",
+          "DOWNLOAD",
+          "CREATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "READ",
+          "MODERATE",
+          "UPDATE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DELETE",
+          "CHANGE_SETTINGS"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875886",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "d0127d60-45b2-4fb1-848a-fe3b712467da",
+    "resourceAccess": [
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "DELETE",
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "DELETE",
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DOWNLOAD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875887",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "2b713e81-3311-45a0-b01f-da8e609a7abf",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CREATE",
+          "MODERATE",
+          "DELETE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "UPDATE",
+          "CHANGE_SETTINGS",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "DOWNLOAD",
+          "UPDATE",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CREATE",
+          "MODERATE",
+          "DELETE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "UPDATE",
+          "CHANGE_SETTINGS",
+          "READ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875888",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "8331bbd6-3b00-41d5-a56a-392a89a77841",
+    "resourceAccess": [
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "DOWNLOAD",
+          "READ",
+          "CREATE",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "READ",
+          "CREATE",
+          "MODERATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "READ",
+          "CREATE",
+          "MODERATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875889",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "edc6d5a4-0436-407e-b874-13455f2d2c69",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CREATE",
+          "MODERATE",
+          "DELETE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "UPDATE",
+          "CHANGE_SETTINGS",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "DOWNLOAD",
+          "UPDATE",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CREATE",
+          "MODERATE",
+          "DELETE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "UPDATE",
+          "CHANGE_SETTINGS",
+          "READ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875890",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "50e75e48-e7a1-4286-bd1a-316a2c703d11",
+    "resourceAccess": [
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "DELETE",
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "DELETE",
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DOWNLOAD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875891",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "6074b49a-2551-4b3e-8133-cd71172811bb",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "DELETE",
+          "CHANGE_SETTINGS",
+          "MODERATE",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DOWNLOAD",
+          "READ",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "DELETE",
+          "CHANGE_SETTINGS",
+          "MODERATE",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DOWNLOAD",
+          "READ",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "DOWNLOAD",
+          "READ",
+          "UPDATE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875892",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "aa66942f-2b4b-4d83-9c23-7b6bdf1e9d1b",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CREATE",
+          "MODERATE",
+          "DELETE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "UPDATE",
+          "CHANGE_SETTINGS",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "DOWNLOAD",
+          "UPDATE",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CREATE",
+          "MODERATE",
+          "DELETE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "UPDATE",
+          "CHANGE_SETTINGS",
+          "READ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875893",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "eb8e790e-4834-415b-9239-d20c210b9c49",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "READ",
+          "MODERATE",
+          "UPDATE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DELETE",
+          "CHANGE_SETTINGS"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "READ",
+          "UPDATE",
+          "DOWNLOAD",
+          "CREATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "READ",
+          "MODERATE",
+          "UPDATE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DELETE",
+          "CHANGE_SETTINGS"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875894",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "cce1d1cd-b34f-47ce-9029-640fbdbe5c3e",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "READ",
+          "MODERATE",
+          "UPDATE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DELETE",
+          "CHANGE_SETTINGS"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "READ",
+          "UPDATE",
+          "DOWNLOAD",
+          "CREATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "READ",
+          "MODERATE",
+          "UPDATE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DELETE",
+          "CHANGE_SETTINGS"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875895",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "a418a6a1-bdab-4849-b05e-42083cb17dc3",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "READ",
+          "DOWNLOAD",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875896",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "f00b6d0c-c46b-4795-9cf2-50b1253c92a4",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "DELETE",
+          "CHANGE_SETTINGS",
+          "MODERATE",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DOWNLOAD",
+          "READ",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "DELETE",
+          "CHANGE_SETTINGS",
+          "MODERATE",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DOWNLOAD",
+          "READ",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "DOWNLOAD",
+          "READ",
+          "UPDATE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875897",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "ea94b906-3844-4788-8a6d-5973b93fdbde",
+    "resourceAccess": [
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "DELETE",
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "DELETE",
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DOWNLOAD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875899",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "be1cc0ef-b3a5-4568-93bb-9f6dfcb5b733",
+    "resourceAccess": [
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "DOWNLOAD",
+          "READ",
+          "CREATE",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "READ",
+          "CREATE",
+          "MODERATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "READ",
+          "CREATE",
+          "MODERATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875901",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "9bcd8c48-007e-428f-bc18-77b2e73139ce",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "READ",
+          "DOWNLOAD",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875902",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "877c28ec-9a47-4670-b3c1-5669bd43c1ed",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "DELETE",
+          "CHANGE_SETTINGS",
+          "MODERATE",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DOWNLOAD",
+          "READ",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "DELETE",
+          "CHANGE_SETTINGS",
+          "MODERATE",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DOWNLOAD",
+          "READ",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "DOWNLOAD",
+          "READ",
+          "UPDATE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875903",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "3baa3435-8499-43b0-85ba-32ff234696ac",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "READ",
+          "MODERATE",
+          "UPDATE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DELETE",
+          "CHANGE_SETTINGS"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "READ",
+          "UPDATE",
+          "DOWNLOAD",
+          "CREATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "READ",
+          "MODERATE",
+          "UPDATE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DELETE",
+          "CHANGE_SETTINGS"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24875904",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "2c415224-f1a6-4b2a-9103-9275e53a9950",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "READ",
+          "MODERATE",
+          "UPDATE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DELETE",
+          "CHANGE_SETTINGS"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "READ",
+          "UPDATE",
+          "DOWNLOAD",
+          "CREATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "READ",
+          "MODERATE",
+          "UPDATE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DELETE",
+          "CHANGE_SETTINGS"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24876651",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "dfd9febd-4e5e-49b5-9132-7e6640c00dbe",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "DELETE",
+          "CHANGE_SETTINGS",
+          "MODERATE",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DOWNLOAD",
+          "READ",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "DELETE",
+          "CHANGE_SETTINGS",
+          "MODERATE",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DOWNLOAD",
+          "READ",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "DOWNLOAD",
+          "READ",
+          "UPDATE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn24876652",
+    "creationDate": "2021-05-04T16:12:23.761Z",
+    "etag": "17560a75-9c1e-462b-a5a3-abcc6ca4b5cc",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CREATE",
+          "MODERATE",
+          "DELETE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "UPDATE",
+          "CHANGE_SETTINGS",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273949,
+        "accessType": [
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "DOWNLOAD",
+          "UPDATE",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 273948,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CREATE",
+          "MODERATE",
+          "DELETE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "UPDATE",
+          "CHANGE_SETTINGS",
+          "READ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn25442233",
+    "creationDate": "2021-04-02T21:57:13.779Z",
+    "etag": "cc18a8ed-2ad2-423a-b29d-7c70ef4aa463",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CREATE",
+          "MODERATE",
+          "DELETE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "UPDATE",
+          "CHANGE_SETTINGS",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "DOWNLOAD",
+          "UPDATE",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CREATE",
+          "MODERATE",
+          "DELETE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "UPDATE",
+          "CHANGE_SETTINGS",
+          "READ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn39147270",
+    "creationDate": "2020-10-06T16:13:15.687Z",
+    "etag": "cfed9a4a-56a5-409a-af2a-c1f7076f0347",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 3442054,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn39147740",
+    "creationDate": "2021-05-04T16:08:33.513Z",
+    "etag": "619930ac-be0c-4b09-b511-7fc417b86e9d",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "DELETE",
+          "CHANGE_SETTINGS",
+          "MODERATE",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DOWNLOAD",
+          "READ",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3442054,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3438869,
+        "accessType": [
+          "CREATE",
+          "DOWNLOAD",
+          "READ",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "DELETE",
+          "CHANGE_SETTINGS",
+          "MODERATE",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DOWNLOAD",
+          "READ",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "DOWNLOAD",
+          "READ",
+          "UPDATE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn39148070",
+    "creationDate": "2021-05-04T16:09:36.586Z",
+    "etag": "067bc65e-265a-4308-9c5e-f6e63f7862ea",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "READ",
+          "DOWNLOAD",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 3442054,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn39148087",
+    "creationDate": "2021-05-04T16:09:20.578Z",
+    "etag": "469fa6d6-3ffe-4d6c-a48d-ed67c246661b",
+    "resourceAccess": [
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "DOWNLOAD",
+          "READ",
+          "CREATE",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3442054,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "READ",
+          "CREATE",
+          "MODERATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      },
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "READ",
+          "CREATE",
+          "MODERATE",
+          "UPDATE",
+          "DELETE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn39148106",
+    "creationDate": "2021-05-04T16:09:52.698Z",
+    "etag": "7a817a1a-590c-4bac-8302-fb73ecb0b8c4",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "READ",
+          "DOWNLOAD",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 3442054,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn39148128",
+    "creationDate": "2021-05-04T16:10:12.064Z",
+    "etag": "2e9b361e-9c7b-4d7f-8602-537d6c9c5517",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "DELETE",
+          "CHANGE_SETTINGS",
+          "MODERATE",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DOWNLOAD",
+          "READ",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3442054,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "DELETE",
+          "CHANGE_SETTINGS",
+          "MODERATE",
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "DOWNLOAD",
+          "READ",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "DOWNLOAD",
+          "READ",
+          "UPDATE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn39148156",
+    "creationDate": "2021-05-04T16:10:36.910Z",
+    "etag": "c379911e-f6e4-4513-adee-d64b217bf1d9",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "READ",
+          "DOWNLOAD",
+          "UPDATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CHANGE_PERMISSIONS",
+          "CREATE",
+          "CHANGE_SETTINGS",
+          "READ",
+          "DOWNLOAD",
+          "DELETE",
+          "UPDATE",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 3442054,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn39148191",
+    "creationDate": "2021-05-04T16:10:57.925Z",
+    "etag": "36311332-c49d-4891-87d3-c86f7fbddd11",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "CREATE",
+          "MODERATE",
+          "DELETE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "UPDATE",
+          "CHANGE_SETTINGS",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3442054,
+        "accessType": [
+          "DOWNLOAD",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "CREATE",
+          "DOWNLOAD",
+          "UPDATE",
+          "READ"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "CREATE",
+          "MODERATE",
+          "DELETE",
+          "DOWNLOAD",
+          "CHANGE_PERMISSIONS",
+          "UPDATE",
+          "CHANGE_SETTINGS",
+          "READ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "syn39148208",
+    "creationDate": "2021-05-04T16:11:14.020Z",
+    "etag": "5cd72113-0bc7-4920-98c0-d5a00f5dcace",
+    "resourceAccess": [
+      {
+        "principalId": 3391844,
+        "accessType": [
+          "DELETE",
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 3413795,
+        "accessType": [
+          "DELETE",
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "CHANGE_PERMISSIONS",
+          "CHANGE_SETTINGS",
+          "DOWNLOAD",
+          "MODERATE"
+        ]
+      },
+      {
+        "principalId": 3442054,
+        "accessType": [
+          "READ",
+          "DOWNLOAD"
+        ]
+      },
+      {
+        "principalId": 3410872,
+        "accessType": [
+          "READ",
+          "CREATE",
+          "UPDATE",
+          "DOWNLOAD"
+        ]
+      }
+    ]
+  }
+]
